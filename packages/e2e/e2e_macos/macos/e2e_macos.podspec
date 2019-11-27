@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'e2e'
+  s.name             = 'e2e_macos'
   s.version          = '0.0.1'
   s.summary          = 'Adapter for e2e tests.'
   s.description      = <<-DESC
