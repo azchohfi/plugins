@@ -31,7 +31,10 @@ dependencies:
   shared_preferences_macos: ^0.0.1
   shared_preferences_web: ^0.1.2
   shared_preferences_windows:
-    path: ../shared_preferences_windows
+    git:
+      url: git://github.com/azchohfi/plugins.git
+      path: packages/shared_preferences/shared_preferences_windows
+      ref: 4ae292668479de7bf8122fb60bd5a0fa37840909
 
 dev_dependencies:
   flutter_test:
